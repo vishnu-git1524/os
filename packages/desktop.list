@@ -1,0 +1,73 @@
+# Theera OS Desktop Environment
+# GNOME desktop and applications
+
+# GNOME Shell and core
+gnome-shell
+gnome-session
+gnome-settings-daemon
+gnome-control-center
+gnome-keyring
+gnome-terminal
+
+# GNOME core applications
+nautilus
+gedit
+eog
+evince
+file-roller
+gnome-calculator
+gnome-calendar
+gnome-characters
+gnome-clocks
+gnome-contacts
+gnome-disk-utility
+gnome-font-viewer
+gnome-logs
+gnome-maps
+gnome-screenshot
+gnome-system-monitor
+gnome-weather
+gnome-tweaks
+gnome-extensions-app
+
+# GNOME Software and package management
+gnome-software
+gnome-software-plugin-flatpak
+gnome-software-plugin-snap
+packagekit
+apt-xapian-index
+
+# Display and graphics
+gdm3
+xorg
+xserver-xorg-video-all
+mesa-utils
+
+# Fonts
+fonts-ubuntu
+fonts-liberation
+fonts-noto
+fonts-dejavu-core
+
+# Themes and appearance
+adwaita-icon-theme
+ubuntu-wallpapers
+plymouth
+plymouth-themes
+
+# Audio and media
+totem
+rhythmbox
+cheese
+sound-theme-freedesktop
+
+# Printing and scanning
+cups
+cups-browsed
+system-config-printer
+simple-scan
+sane-utils
+
+# Accessibility
+orca
+gnome-accessibility-themes

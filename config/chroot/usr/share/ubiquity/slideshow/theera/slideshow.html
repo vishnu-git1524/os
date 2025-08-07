@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Theera OS</title>
+    <style>
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            margin: 0;
+            padding: 20px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .slide {
+            max-width: 600px;
+            display: none;
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        .slide.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+            color: #ecf0f1;
+        }
+        
+        h2 {
+            font-size: 2em;
+            margin-bottom: 1em;
+            color: #3498db;
+        }
+        
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 1.5em;
+            color: #bdc3c7;
+        }
+        
+        .feature-list {
+            text-align: left;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .feature-list li {
+            margin-bottom: 0.8em;
+            font-size: 1.1em;
+        }
+        
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 2em;
+            border-radius: 50%;
+            background: #3498db;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide active">
+        <div class="logo">T</div>
+        <h1>Welcome to Theera OS</h1>
+        <p>A modern, secure, and user-friendly Linux distribution designed for everyone.</p>
+        <p>While we're installing Theera OS on your computer, let us show you what makes it special.</p>
+    </div>
+    
+    <div class="slide">
+        <h2>Beautiful & Intuitive</h2>
+        <p>Theera OS features a carefully crafted GNOME desktop environment with custom themes and extensions that make computing enjoyable and productive.</p>
+        <ul class="feature-list">
+            <li>🎨 Custom Theera theme with dark and light modes</li>
+            <li>🚀 Optimized performance and smooth animations</li>
+            <li>🔧 Pre-configured desktop with useful extensions</li>
+            <li>📱 Modern, touch-friendly interface</li>
+        </ul>
+    </div>
+    
+    <div class="slide">
+        <h2>Secure by Default</h2>
+        <p>Your privacy and security are our top priorities. Theera OS includes enterprise-grade security features out of the box.</p>
+        <ul class="feature-list">
+            <li>🛡️ AppArmor application sandboxing</li>
+            <li>🔥 UFW firewall pre-configured</li>
+            <li>🔒 Full disk encryption support</li>
+            <li>🔄 Automatic security updates</li>
+        </ul>
+    </div>
+    
+    <div class="slide">
+        <h2>Everything You Need</h2>
+        <p>Theera OS comes with a comprehensive set of applications for work, creativity, and entertainment.</p>
+        <ul class="feature-list">
+            <li>🌐 Firefox web browser</li>
+            <li>📝 LibreOffice suite</li>
+            <li>💻 Development tools and IDEs</li>
+            <li>🎵 Multimedia applications</li>
+        </ul>
+    </div>
+    
+    <div class="slide">
+        <h2>Developer Friendly</h2>
+        <p>Whether you're a student learning to code or a professional developer, Theera OS has you covered.</p>
+        <ul class="feature-list">
+            <li>⚡ VS Code and GNOME Builder pre-installed</li>
+            <li>🐍 Python, Node.js, and more ready to go</li>
+            <li>📦 APT, Snap, and Flatpak package managers</li>
+            <li>🔧 Git and development tools included</li>
+        </ul>
+    </div>
+    
+    <div class="slide">
+        <h2>Hardware Compatible</h2>
+        <p>Theera OS works great on both old and new hardware with automatic driver detection and optimization.</p>
+        <ul class="feature-list">
+            <li>🖥️ NVIDIA and AMD graphics support</li>
+            <li>📶 Wi-Fi and Bluetooth out of the box</li>
+            <li>🖨️ Printer and scanner compatibility</li>
+            <li>🔋 Power management and battery optimization</li>
+        </ul>
+    </div>
+    
+    <div class="slide">
+        <h2>Almost Done!</h2>
+        <p>Theera OS is finishing the installation. You'll be ready to explore your new operating system in just a moment.</p>
+        <p>Thank you for choosing Theera OS! We hope you enjoy using it as much as we enjoyed creating it.</p>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+        
+        function showNextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        }
+        
+        // Change slide every 5 seconds
+        setInterval(showNextSlide, 5000);
+    </script>
+</body>
+</html>

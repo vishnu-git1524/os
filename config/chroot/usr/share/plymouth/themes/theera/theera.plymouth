@@ -1,0 +1,25 @@
+[Plymouth Theme]
+Name=Theera
+Description=Theera OS Boot Theme
+ModuleName=two-step
+
+[two-step]
+Font=Ubuntu 12
+TitleFont=Ubuntu Bold 14
+ImageDir=/usr/share/plymouth/themes/theera
+DialogHorizontalAlignment=.5
+DialogVerticalAlignment=.382
+TitleHorizontalAlignment=.5
+TitleVerticalAlignment=.382
+HorizontalAlignment=.5
+VerticalAlignment=.7
+WatermarkHorizontalAlignment=.5
+WatermarkVerticalAlignment=.96
+Transition=none
+TransitionDuration=0.0
+BackgroundStartColor=0x2c3e50
+BackgroundEndColor=0x34495e
+ProgressBarBackgroundColor=0x606060
+ProgressBarForegroundColor=0x3498db
+DialogClearsFirmwareBackground=false
+MessageBelowAnimation=true

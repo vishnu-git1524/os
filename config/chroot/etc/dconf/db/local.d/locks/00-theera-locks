@@ -1,0 +1,6 @@
+# Lock certain settings to prevent users from changing them
+# These are typically organizational or security policies
+
+[org/gnome/desktop/privacy]
+report-technical-problems
+send-software-usage-stats

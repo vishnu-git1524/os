@@ -1,0 +1,50 @@
+# Theera OS Security Configuration
+# Security tools and hardening
+
+# AppArmor
+apparmor
+apparmor-profiles
+apparmor-profiles-extra
+apparmor-utils
+apparmor-notify
+
+# Firewall
+ufw
+gufw
+
+# Intrusion detection
+fail2ban
+rkhunter
+chkrootkit
+
+# Antivirus
+clamav
+clamav-daemon
+clamav-freshclam
+
+# System hardening
+aide
+lynis
+tiger
+
+# Network security
+nmap
+wireshark
+tcpdump
+
+# Updates and patches
+unattended-upgrades
+apt-listchanges
+needrestart
+
+# Encryption
+gnupg
+gnupg2
+cryptsetup
+ecryptfs-utils
+
+# VPN clients
+openvpn
+wireguard
+network-manager-openvpn
+network-manager-openvpn-gnome

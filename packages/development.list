@@ -1,0 +1,81 @@
+# Theera OS Development Tools
+# Programming languages, editors, and development utilities
+
+# Build tools
+build-essential
+gcc
+g++
+make
+cmake
+autotools-dev
+pkg-config
+libtool
+
+# Version control
+git
+git-gui
+gitk
+subversion
+mercurial
+
+# Programming languages
+python3
+python3-pip
+python3-dev
+python3-venv
+python3-setuptools
+nodejs
+npm
+ruby
+ruby-dev
+golang-go
+rustc
+cargo
+
+# Text editors and IDEs
+vim
+vim-gtk3
+nano
+emacs
+code
+gnome-builder
+
+# Debugging and profiling
+gdb
+valgrind
+strace
+ltrace
+perf-tools-unstable
+
+# Documentation and help
+man-db
+manpages-dev
+info
+
+# Libraries and development headers
+libc6-dev
+libssl-dev
+libffi-dev
+libbz2-dev
+libreadline-dev
+libsqlite3-dev
+libncurses5-dev
+libncursesw5-dev
+libxml2-dev
+libxslt1-dev
+libyaml-dev
+
+# Database tools
+sqlite3
+postgresql-client
+mysql-client
+
+# Container and virtualization
+docker.io
+docker-compose
+qemu-kvm
+virt-manager
+
+# Web development
+apache2-utils
+nginx-common

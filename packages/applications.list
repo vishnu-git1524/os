@@ -1,0 +1,56 @@
+# Theera OS Applications
+# Essential applications for daily use
+
+# Web browser
+firefox
+firefox-locale-en
+
+# Email client
+thunderbird
+thunderbird-locale-en
+
+# Office suite
+libreoffice
+libreoffice-gnome
+libreoffice-help-en-us
+libreoffice-l10n-en-us
+
+# Graphics and imaging
+gimp
+inkscape
+shotwell
+drawing
+
+# Multimedia
+vlc
+audacity
+openshot
+
+# Communication
+discord
+telegram-desktop
+slack-desktop
+
+# Utilities
+gparted
+synaptic
+dconf-editor
+htop
+neofetch
+tree
+ncdu
+tmux
+screen
+
+# Archive tools
+file-roller
+p7zip-full
+rar
+unrar
+
+# File sharing
+transmission-gtk
+
+# PDF tools
+qpdf
+pdftk

@@ -1,0 +1,17 @@
+# Theera OS Additional Repositories
+# Development and proprietary software sources
+
+# Microsoft Visual Studio Code
+deb [arch=amd64,arm64,armhf signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main
+
+# Google Chrome (optional)
+# deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome-keyring.gpg] https://dl.google.com/linux/chrome/deb/ stable main
+
+# Docker CE
+# deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu jammy stable
+
+# Node.js LTS
+deb [signed-by=/usr/share/keyrings/nodesource.gpg] https://deb.nodesource.com/node_18.x jammy main
+
+# Flatpak
+deb https://ppa.launchpadcontent.net/alexlarsson/flatpak/ubuntu jammy main

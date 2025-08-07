@@ -1,0 +1,15 @@
+[Unit]
+Description=Theera OS Security Updates
+Documentation=man:unattended-upgrades(8)
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/unattended-upgrades --verbose
+StandardOutput=journal+console
+StandardError=journal+console
+SyslogIdentifier=theera-security-updates
+
+[Install]
+WantedBy=multi-user.target

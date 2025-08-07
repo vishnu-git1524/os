@@ -1,0 +1,63 @@
+# Theera OS Core Packages
+# Essential system packages for the base system
+
+# Linux kernel and boot system
+linux-generic
+linux-headers-generic
+linux-firmware
+linux-firmware-nonfree
+
+# Boot and installation
+grub-efi-amd64-signed
+grub-pc
+shim-signed
+casper
+ubiquity
+ubiquity-casper
+ubiquity-frontend-gtk
+ubiquity-slideshow-ubuntu
+
+# System base
+systemd
+udev
+dbus
+acpi-support
+laptop-detect
+hdparm
+smartmontools
+lm-sensors
+
+# Hardware support
+firmware-linux
+alsa-utils
+pulseaudio
+pulseaudio-module-bluetooth
+bluetooth
+bluez
+bluez-tools
+
+# Network
+network-manager
+network-manager-gnome
+wireless-tools
+wpasupplicant
+openssh-client
+avahi-daemon
+avahi-utils
+
+# File systems
+dosfstools
+ntfs-3g
+exfat-fuse
+exfat-utils
+
+# Essential utilities
+curl
+wget
+rsync
+zip
+unzip
+p7zip
+p7zip-full
+gzip
+tar
