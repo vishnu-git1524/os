@@ -19,9 +19,10 @@ Theera OS is a fully functional, production-grade Linux operating system built f
 
 ## Quick Start
 ```bash
-# Clone and build
-git clone <repository>
-cd theera-os
+# Build on Ubuntu Live USB (Recommended)
+# 1. Boot Ubuntu 22.04+ Live USB
+# 2. Copy project files from external storage
+# 3. Run build command:
 sudo ./build-system/build-iso.sh
 
 # The resulting ISO will be in output/theera-os.iso

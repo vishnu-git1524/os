@@ -79,16 +79,16 @@ sudo ./build-system/build-iso.sh
 
 #### For Ubuntu Live USB (Recommended):
 ```bash
-# Boot Ubuntu Live USB, then:
+# Boot Ubuntu Live USB with persistence, then:
 cd /path/to/theera-os
 sudo ./build-system/build-iso.sh
-# See docs/BUILD-LIVE-USB.md for complete guide
+# Complete guide: docs/BUILD-LIVE-USB.md
 ```
 
 #### Alternative Methods:
-- **WSL2**: See `docs/BUILD-WINDOWS.md` for WSL setup
-- **Virtual Machine**: Use VirtualBox with Ubuntu 22.04+
-- **Docker**: See `BUILD-WINDOWS-GUIDE.md` for container build
+- **WSL2**: See `docs/BUILD-WINDOWS.md`
+- **VirtualBox**: Ubuntu 22.04+ VM
+- **Physical Linux**: Any Ubuntu/Debian system
 
 ### Expected Output
 - **ISO File**: `output/theera-os-1.0.iso`
